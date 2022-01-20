@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
     <head>
         <link rel="stylesheet" href="/Dia03_Formularios/style.css">
         <meta charset="UTF-8">
@@ -17,38 +17,48 @@
         <form>
             <fieldset class="grupo">
                 <div class="campo">
-                    <label for="nome"><strong>Nome:</strong></label>
-                    <input type="text" name="nome" id="nome" required>
+                    <label for="nome">
+                        <strong>Nome:</strong>
+                    </label>
+                    <input type="text" name="nome" id="nome" required="required">
                 </div>
 
                 <div class="campo">
-                    <label for="sobrenome"><strong>Sobrenome:</strong></label><br>
-                    <input type="text" name="sobrenome" id="sobrenome" required>
+                    <label for="sobrenome">
+                        <strong>Sobrenome:</strong>
+                    </label><br>
+                    <input type="text" name="sobrenome" id="sobrenome" required="required">
                 </div>
             </fieldset>
 
             <div class="campo">
-                <label for="email"><strong>E-mail:</strong></label>
-                <input type="email" name="email" id="email" required>
+                <label for="email">
+                    <strong>E-mail:</strong>
+                </label>
+                <input type="email" name="email" id="email" required="required">
             </div><br>
 
             <div class="campo">
-                <label><strong>Qual lado da aplicação você desenvolve?</strong> </label><br>
+                <label>
+                    <strong>Qual lado da aplicação você desenvolve?</strong>
+                </label><br>
                 <label>
                     <input type="radio" name="devweb" value="frontend">Front-end
-                </label>
+                </label><br>
 
                 <label>
                     <input type="radio" name="devweb" value="backend">Back-end
-                </label>
+                </label><br>
 
                 <label>
                     <input type="radio" name="devweb" value="fullstack">Fullstack
-                </label>
+                </label><br>
             </div>
 
             <div class="campo">
-                <label for="senioridade"><strong>Senioridade:</strong></label>
+                <label for="senioridade">
+                    <strong>Senioridade:</strong>
+                </label>
                 <select id="senioridade">
                     <option selected="selected" disable="disable" value="">Selecione</option>
                     <option value="junior">Junior</option>
@@ -59,35 +69,37 @@
 
             <fieldset class="grupo">
                 <div id="check">
-                    <label>Selecione as tecnolgias que utiliza:</label><br>
+                    <label>Selecione as tecnolgias que utiliza:</label>
+                    <br>
                     <input type="checkbox" id="tecnologia" name="tecnologia1" value="html">
                     <label for="tecnologia1">HTML</label>
-                </label>
-                <input type="checkbox" id="tecnologia" name="tecnologia2" value="css">
-                <label for="tecnologia2">CSS</label>
-            </label>
-            <input type="checkbox" id="tecnologia" name="tecnologia3" value="javascript">
-            <label for="tecnologia3">JavaScript</label>
-        </label>
-        <input type="checkbox" id="tecnologia" name="tecnologia4" value="php">
-        <label for="tecnologia4">PHP</label>
-        <input type="checkbox" id="tecnologia" name="tecnologia5" value="c#">
-        <label for="tecnologia4">C#</label>
-        <input type="checkbox" id="tecnologia" name="tecnologia6" value="python">
-        <label for="tecnologia4">Python</label>
-        <input type="checkbox" id="tecnologia" name="tecnologia7" value="java">
-        <label for="tecnologia4">Java</label>
-    </label>
-</div>
-</fieldset>
 
-<div>
-    <br>
-    <label>Conte um pouco da sua experiencia:</label><br>
-    <textarea name="experiencia" id="experiencia" style="width: 26em" rows="6"></textarea>
-</div>
-<br>
-<button type="submit" class="botao">Concluído</button>
-</form>
+                    <input type="checkbox" id="tecnologia" name="tecnologia2" value="css">
+                    <label for="tecnologia2">CSS</label>
+
+                    <input type="checkbox" id="tecnologia" name="tecnologia3" value="javascript">
+                    <label for="tecnologia3">JavaScript</label>
+
+                    <input type="checkbox" id="tecnologia" name="tecnologia4" value="php">
+                    <label for="tecnologia4">PHP</label>
+                    <input type="checkbox" id="tecnologia" name="tecnologia5" value="c#">
+                    <label for="tecnologia4">C#</label>
+                    <input type="checkbox" id="tecnologia" name="tecnologia6" value="python">
+                    <label for="tecnologia4">Python</label>
+                    <input type="checkbox" id="tecnologia" name="tecnologia7" value="java">
+                    <label for="tecnologia4">Java</label>
+                </label>
+            </div>
+        </fieldset>
+
+        <div>
+            <br>
+            <label>Conte um pouco da sua experiencia:</label>
+            <br>
+            <textarea name="experiencia" id="experiencia" style="width: 26em" rows="6"></textarea>
+        </div>
+        <br>
+        <button type="submit" class="botao">Concluído</button>
+    </form>
 </body>
 </html>
