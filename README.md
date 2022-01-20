@@ -4,7 +4,6 @@
 
 <b>Regras:</b> :book:
 * Realizar 30 projetos durante 30 dias.
-* Compartilhe seu progresso nas mídias sociais (Twitter, Facebook, Linkedin etc.) usando a hashtag #30diasDeCSS 
 * O projeto deve ser concluído até 23:59 :watch:
 
 Gostou da ideia? [Clique aqui](https://github.com/MilenaCarecho/30diasDeCSS/issues/1) para participar!
