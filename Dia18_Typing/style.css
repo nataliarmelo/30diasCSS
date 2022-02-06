@@ -1,0 +1,36 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(8, 85, 148);
+}
+
+.wrapper{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.digitacao-simples{
+    width: 22ch;
+    animation: typing 4s steps(40),blink .3s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 7em;
+    color:azure
+}
+
+
+@keyframes typing{
+    from{
+        width: 0;
+    }
+}
+
+@keyframes blink{
+    50% {
+        border-color: transparent;
+    }
+}
