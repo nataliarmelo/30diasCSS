@@ -1,0 +1,32 @@
+body
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(231, 109, 170);
+}
+h1
+{
+    color: rgb(0, 0, 0);
+    font-size: 80px;
+    font-family: 'Press Start 2P', cursive;
+}
+span::before
+{
+    content: '';
+    animation: word-swith 4s infinite;
+}
+
+@keyframes word-swith 
+{
+    10% {content: '💻'}
+
+    30%{content: '🍕';}
+
+    40%{content: '🎮';}
+
+    80%{content: '🍟';}
+
+    100%{content: '☕';}
+}
